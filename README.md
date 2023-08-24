@@ -1,11 +1,11 @@
 #  Description
 
-This is a simple deployment template you can follow to deploy your lambda. In this example the lambda function will bind the certificates with specific DNs to specified ALB listener.
+This is a simple deployment template you can follow to deploy your lambda. In this example, the lambda function will bind the certificates with specific DNs to specified ALB listener.
 
 # What to update
 
-- Update lamdba ARN in `iam/lambda-invoke.policy.json`
-- Update `my_lambda` function name with a desired one
+- Update lambda ARN in `iam/lambda-invoke.policy.json`
+- Update the `my_lambda` function name with a desired one
 - Update `my_lambda.py` code logic
 
 # How to deploy
